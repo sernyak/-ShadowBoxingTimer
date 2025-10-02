@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Tags for Product Hunt Offer Page -->
+    <title>Exclusive Offer for Product Hunt | Shadow Boxing Timer</title>
+    <meta name="title" content="Exclusive Offer for Product Hunt | Shadow Boxing Timer">
+    <meta name="description" content="Get an exclusive 90% discount on the lifetime premium version of Shadow Boxing Timer, only for the Product Hunt community.">
+    <meta name="robots" content="noindex, nofollow"> <!-- Prevents search engines from indexing this offer page -->
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shadowboxingtimer.com/producthunt.html">
+    <meta property="og:title" content="Exclusive Offer for Product Hunt | Shadow Boxing Timer">
+    <meta property="og:description" content="Get an exclusive 90% discount on the lifetime premium version of Shadow Boxing Timer.">
+    <meta property="og:image" content="https://shadowboxingtimer.com/images/social-preview-ph.png"> <!-- Consider creating a unique preview image for this page -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://shadowboxingtimer.com/producthunt.html">
+    <meta property="twitter:title" content="Exclusive Offer for Product Hunt | Shadow Boxing Timer">
+    <meta property="twitter:description" content="Get an exclusive 90% discount on the lifetime premium version of Shadow Boxing Timer.">
+    <meta property="twitter:image" content="https://shadowboxingtimer.com/images/social-preview-ph.png">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #050505;
+            color: #f3f4f6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #fdba74, #f97316); /* Lighter gradient for PH */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .app-store-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            background-color: #f97316;
+            color: white;
+            padding: 0.75rem 1.75rem;
+            border-radius: 9999px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(249, 115, 22, 0.2);
+        }
+        .app-store-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(249, 115, 22, 0.3);
+            background-color: #fb923c;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Sticky Header -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-lg border-b border-white/10">
+        <div class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
+            <a href="index.html" class="flex items-center">
+                <span class="text-lg sm:text-xl font-bold text-white">Shadow Boxing Timer</span>
+            </a>
+            <a href="https://apps.apple.com/app/id6748961633" class="app-store-button !px-4 !py-2 !text-sm" target="_blank">
+                <i class="fa-brands fa-apple text-xl"></i>
+                <span class="hidden sm:inline">Get on the App Store</span>
+                <span class="sm:hidden">Get</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Product Hunt Hero Section -->
+        <section id="producthunt-offer" class="min-h-screen flex items-center justify-center text-center px-4 pt-24 pb-20 relative overflow-hidden">
+             <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80vw] h-[80vw] max-w-2xl max-h-2xl bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-orange-500/20 to-transparent rounded-full blur-3xl"></div>
+            <div class="container mx-auto px-6 relative z-10">
+                
+                <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-white fade-in pb-2" style="transition-delay: 100ms;">
+                    Welcome <span class="gradient-text">Product Hunt</span> Community!
+                </h1>
+
+                <p class="mt-6 max-w-3xl mx-auto text-lg md:text-xl text-gray-300 fade-in" style="transition-delay: 200ms;">
+                    As a special thank you for your support, claim an exclusive <strong class="text-orange-400">90% discount</strong> on the Lifetime Premium version of Shadow Boxing Timer.
+                </p>
+
+                <!-- Email Form Container -->
+                <div id="promo-form-container" class="mt-10 max-w-lg mx-auto fade-in" style="transition-delay: 300ms;">
+                    <div class="bg-gray-900/50 p-6 sm:p-8 rounded-2xl border border-gray-800 shadow-2xl">
+                        <form id="promo-form">
+                            <label for="email" class="sr-only">Email address</label>
+                            <div class="flex flex-col sm:flex-row gap-4">
+                                <input type="email" id="email" name="email" required class="w-full px-5 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-orange-500" placeholder="Enter your email to get the code">
+                                <button type="submit" id="submit-button" class="app-store-button w-full sm:w-auto flex-shrink-0 !rounded-lg">
+                                    <span>Get My Code</span>
+                                </button>
+                            </div>
+                        </form>
+                        <p id="form-message" class="text-red-400 text-sm mt-3 hidden"></p> <!-- Unified message element -->
+                    </div>
+                </div>
+
+                <!-- Success Message Container -->
+                <div id="success-message-container" class="mt-10 max-w-lg mx-auto fade-in hidden" style="transition-delay: 300ms;">
+                     <div class="bg-green-900/50 p-6 sm:p-8 rounded-2xl border border-green-700 shadow-2xl">
+                        <h3 class="text-2xl font-bold text-green-300 mb-4">✅ Success! Check your inbox.</h3>
+                        <p class="text-gray-300 mb-4">We've sent your unique promo code to your email address. It should arrive within a minute.</p>
+                        <p class="text-sm text-gray-400"><strong>How to redeem:</strong><br>1. Open the App Store.<br>2. Tap your profile icon.<br>3. Select "Redeem Gift Card or Code".<br>4. Paste your code.</p>
+                        <a href="https://apps.apple.com/app/id6748961633" class="app-store-button !bg-green-600 hover:!bg-green-500 mt-6" target="_blank">
+                           <i class="fa-brands fa-apple text-3xl"></i>
+                           <span>Open in App Store</span>
+                        </a>
+                    </div>
+                </div>
+                 <p class="mt-4 text-xs text-gray-500">Your email is safe with us. We'll only use it to send the code.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-black border-t border-white/10">
+        <div class="container mx-auto px-6 text-center text-gray-400">
+            <p>&copy; 2025 Shadow Boxing Timer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS for animations and form handling -->
+    <script>
+        // Fade-in animation observer
+        document.addEventListener('DOMContentLoaded', () => {
+            const fadeInElements = document.querySelectorAll('.fade-in');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            fadeInElements.forEach(el => observer.observe(el));
+        });
+    </script>
+    <!-- The form logic is now in a separate file -->
+    <script src="promo.js"></script>
+
+</body>
+</html>
+
