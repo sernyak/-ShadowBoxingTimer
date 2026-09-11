@@ -1,0 +1,12 @@
+{
+  "name": "Shadow Boxing Timer",
+  "short_name": "SB Timer",
+  "description": "Interval and round timer for boxing, HIIT and shadowboxing.",
+  "start_url": "/-ShadowBoxingTimer/",
+  "display": "browser",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "icons": [
+    { "src": "images/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
